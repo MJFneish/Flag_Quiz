@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	>
+	<item android:id="@+id/menu_new_game"
+		android:icon="@drawable/ic_new_game"
+		app:showAsAction="ifRoom"
+		android:title="@string/new_game"/>
+
+	<item android:id="@+id/menu_help"
+		android:title="@string/help" />
+	<item
+		android:id="@+id/optionalButtons"
+		android:title="Optional Buttons"
+		app:showAsAction="never" >
+		<menu>
+			<item
+				android:id="@+id/submenu_button3"
+				android:title="3"/>
+			<item
+				android:id="@+id/submenu_button6"
+				android:title="6"/>
+			<item
+				android:id="@+id/submenu_button9"
+				android:title="9"/>
+			<item
+				android:id="@+id/submenu_button15"
+				android:title="15"/>
+
+		</menu>
+	</item>
+	<item
+		android:id="@+id/menu_regions"
+		android:title="Select Regions"/>
+	<item
+		android:id="@+id/menu_question_number"
+		android:title="Number of questions"/>
+</menu>

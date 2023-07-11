@@ -1,0 +1,10 @@
+<resources>
+	<string name="app_name">FlagQuiz</string>
+	<string name="new_game">New Game</string>
+	<string name="help">Help</string>
+	<string-array name="menu_spinner_choices_items">
+		<item>3</item>
+		<item>6</item>
+		<item>9</item>
+	</string-array>
+</resources>
